@@ -1,0 +1,69 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+*.lock
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart-tool/
+pubspec.lock
+.dart_tool/
+
+# Android
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/local.properties
+android/.gradle/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+android/build/
+
+# iOS
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Release.xcconfig
+ios/Pods/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Windows
+windows/out/
+windows/CMakeSettings.json
+windows/x64/
+windows/arm64/
+*.vcxproj.user
+
+# Linux
+linux/flutter/ephemeral/
+linux/flutter/ephemeral/.plugin_symlinks
+linux/CMakeFiles/
+linux/cmake-build-*/
+linux/out/
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Flutter/Flutter.podspec
+macos/Pods/
+macos/Runner/GeneratedPluginRegistrant.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
