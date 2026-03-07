@@ -1,0 +1,24 @@
+import 'package:drift/drift.dart';
+import '../converters/datetime_converter.dart';
+import '../converters/recurrence_type_converter.dart';
+import '../converters/feb29_policy_converter.dart';
+import 'categories_table.dart';
+
+@TableIndex(name: 'idx_events_date_category', columns: {#date, #categoryId})
+@TableIndex(name: 'idx_events_updated_at', columns: {#updatedAt})
+class Events extends Table {
+  TextColumn get id => text()();
+  TextColumn get title => text()();
+  IntColumn get date => integer().map(const DateTimeConverter())();
+  TextColumn get categoryId => text().nullable().references(Categories, #id)();
+  TextColumn get recurrenceType => text().nullable().map(const RecurrenceTypeConverter())();
+  IntColumn get recurrenceInterval => integer().nullable()();
+  IntColumn get recurrenceEndDate => integer().nullable().map(const DateTimeConverter())();
+  TextColumn get feb29Policy => text().nullable().map(const Feb29PolicyConverter())();
+  TextColumn get notes => text().nullable()();
+  IntColumn get createdAt => integer().map(const DateTimeConverter())();
+  IntColumn get updatedAt => integer().map(const DateTimeConverter())();
+
+  @override
+  Set<Column> get primaryKey => {id};
+}

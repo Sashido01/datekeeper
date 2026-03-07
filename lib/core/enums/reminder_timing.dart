@@ -1,0 +1,1 @@
+enum ReminderTiming { daysBefore, onDay, custom }

@@ -1,0 +1,1 @@
+enum RecurrenceType { none, yearly, monthly, custom }
