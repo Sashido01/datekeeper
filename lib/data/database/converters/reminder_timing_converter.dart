@@ -1,5 +1,5 @@
 import 'package:drift/drift.dart';
-import '../../../core/enums/reminder_timing.dart';
+import 'package:datekeeper/core/enums/reminder_timing.dart';
 
 class ReminderTimingConverter extends TypeConverter<ReminderTiming, String> {
   const ReminderTimingConverter();

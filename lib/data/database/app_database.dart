@@ -11,6 +11,13 @@ import 'tables/reminders_table.dart';
 import 'daos/events_dao.dart';
 import 'daos/categories_dao.dart';
 import 'daos/reminders_dao.dart';
+import 'package:datekeeper/core/enums/recurrence_type.dart';
+import 'package:datekeeper/core/enums/feb29_policy.dart';
+import 'package:datekeeper/core/enums/reminder_timing.dart';
+import 'package:datekeeper/data/database/converters/recurrence_type_converter.dart';
+import 'package:datekeeper/data/database/converters/feb29_policy_converter.dart';
+import 'package:datekeeper/data/database/converters/reminder_timing_converter.dart';
+import 'package:datekeeper/data/database/converters/datetime_converter.dart';
 
 part 'app_database.g.dart';
 

@@ -1,5 +1,5 @@
 import 'package:drift/drift.dart';
-import '../../../core/enums/feb29_policy.dart';
+import 'package:datekeeper/core/enums/feb29_policy.dart';
 
 class Feb29PolicyConverter extends TypeConverter<Feb29Policy, String> {
   const Feb29PolicyConverter();

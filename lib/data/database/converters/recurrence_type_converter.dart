@@ -1,5 +1,5 @@
 import 'package:drift/drift.dart';
-import '../../../core/enums/recurrence_type.dart';
+import 'package:datekeeper/core/enums/recurrence_type.dart';
 
 class RecurrenceTypeConverter extends TypeConverter<RecurrenceType, String> {
   const RecurrenceTypeConverter();
