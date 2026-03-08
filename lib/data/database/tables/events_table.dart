@@ -3,8 +3,6 @@ import 'package:datekeeper/data/database/converters/datetime_converter.dart';
 import 'package:datekeeper/data/database/converters/recurrence_type_converter.dart';
 import 'package:datekeeper/data/database/converters/feb29_policy_converter.dart';
 import 'package:datekeeper/data/database/tables/categories_table.dart';
-import 'package:datekeeper/core/enums/recurrence_type.dart';
-import 'package:datekeeper/core/enums/feb29_policy.dart';
 
 @TableIndex(name: 'idx_events_date_category', columns: {#date, #categoryId})
 @TableIndex(name: 'idx_events_updated_at', columns: {#updatedAt})

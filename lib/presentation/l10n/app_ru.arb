@@ -1,0 +1,33 @@
+{
+  "@@locale": "ru",
+  "appTitle": "DateKeeper",
+  "timelineTitle": "Ближайшие события",
+  "addEvent": "Добавить событие",
+  "editEvent": "Редактировать",
+  "delete": "Удалить",
+  "cancel": "Отмена",
+  "save": "Сохранить",
+  "confirmDelete": "Удалить событие?",
+  "confirmDeleteMessage": "Это действие нельзя отменить.",
+  "eventName": "Название",
+  "eventDate": "Дата",
+  "eventCategory": "Категория",
+  "eventRepeat": "Повторяется ежегодно",
+  "eventDetails": "Детали события",
+  "settingsTitle": "Настройки",
+  "noEvents": "Нет событий в ближайшие 30 дней",
+  "loading": "Загрузка...",
+  "error": "Что-то пошло не так",
+  "retry": "Повторить",
+  "today": "Сегодня",
+  "tomorrow": "Завтра",
+  "daysLeft": "Осталось {count} дн.",
+  "@daysLeft": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "yearly": "Ежегодно",
+  "eventNotes": "Заметки",
+  "eventNotFound": "Событие не найдено"
+}

@@ -2,7 +2,6 @@ import 'package:drift/drift.dart';
 import 'package:datekeeper/data/database/converters/reminder_timing_converter.dart';
 import 'package:datekeeper/data/database/converters/datetime_converter.dart';
 import 'package:datekeeper/data/database/tables/events_table.dart';
-import 'package:datekeeper/core/enums/reminder_timing.dart';
 
 @TableIndex(name: 'idx_reminders_event_id', columns: {#eventId})
 class Reminders extends Table {
