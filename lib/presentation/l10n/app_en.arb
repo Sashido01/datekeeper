@@ -1,0 +1,39 @@
+{
+  "@@locale": "en",
+  "appTitle": "DateKeeper",
+  "@appTitle": {
+    "description": "Application title"
+  },
+  "timelineTitle": "Upcoming Events",
+  "@timelineTitle": {
+    "description": "Title of the main timeline screen"
+  },
+  "addEvent": "Add Event",
+  "editEvent": "Edit Event",
+  "delete": "Delete",
+  "cancel": "Cancel",
+  "save": "Save",
+  "confirmDelete": "Delete Event?",
+  "confirmDeleteMessage": "This action cannot be undone.",
+  "eventName": "Event name",
+  "eventDate": "Date",
+  "eventCategory": "Category",
+  "eventRepeat": "Repeats yearly",
+  "eventDetails": "Event Details",
+  "settingsTitle": "Settings",
+  "noEvents": "No events in the next 30 days",
+  "loading": "Loading...",
+  "error": "Something went wrong",
+  "retry": "Retry",
+  "today": "Today",
+  "tomorrow": "Tomorrow",
+  "daysLeft": "{count} days left",
+  "@daysLeft": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "yearly": "Yearly",
+  "eventNotes": "Notes",
+  "eventNotFound": "Event not found"
+}
